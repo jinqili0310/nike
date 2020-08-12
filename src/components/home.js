@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import Buttons from './buttons';
+// import { Link } from 'react-router-dom';
+// import Buttons from './buttons';
 import NavBar from './navBar';
 import IntroCard from './introCard';
 import SimpleCard from './simpleCard';
@@ -12,6 +12,9 @@ import IntroCardDark from './introCardDark';
 import SimpleCardDark from './simpleCardDark';
 import BestSellers from './bestSellers';
 import Footer from './footer';
+import ProductOneText from './productOneText';
+import ProductTwoText from './productTwoText';
+import ProductThreeText from './productThreeText';
 import jdiOne from '../assets/images/nike-just-do-it.jpg';
 import jdiTwo from '../assets/images/nike-just-do-it-1.jpg';
 import jdiThree from '../assets/images/nike-just-do-it-2.jpg';
@@ -19,7 +22,7 @@ import jdiFour from '../assets/images/nike-just-do-it-3.jpg';
 import jdiFive from '../assets/images/nike-just-do-it-4.jpg';
 import jdiSix from '../assets/images/nike-just-do-it-5.jpg';
 import pdtOne from '../assets/images/air-max-270-react-se-womens-shoe-npb2CK.jpg';
-import pdtThree from '../assets/images/air-max-verona-womens-shoe-JF64LJ.jpg';
+import pdtThree from '../assets/images/air-max-90-womens-shoe-S6hW4R.jpg';
 import pdtTwo from '../assets/images/joyride-dual-run-mens-running-shoe-8BGXtk.jpg';
 import bbOne from '../assets/images/image1.jpg';
 import bbTwo from '../assets/images/image2.jpg';
@@ -65,13 +68,13 @@ class Home extends Component {
 						<Col>
 							<div>
 								<span className="latest-title">Latest and Greatest</span>
-								<Link to="/" className="latest-link">
+								{/* <Link to="/" className="latest-link">
 									Shop
-								</Link>
+								</Link> */}
 							</div>
 						</Col>
 					</Row>
-					<Row lg={3} className="product-card-group">
+					{/* <Row lg={3} className="product-card-group">
 						<Col className="product-card-left">
 							<ProductCard
 								src={pdtOne}
@@ -89,7 +92,44 @@ class Home extends Component {
 							/>
 						</Col>
 						<Col className="product-card-right">
-							<ProductCard src={pdtThree} title="Nike Air Max Verona" price="$130" text="Women's Shoe" />
+							<ProductCard src={pdtThree} title="Nike Air Max 90" price="$140" text="Women's Shoe" />
+						</Col>
+					</Row> */}
+					<Row className="product-intro product-intro-start">
+						<Col md={5} className="product-intro-image">
+							<ProductCard
+								src={pdtOne}
+								title="Nike Air Max 270 React SE"
+								price="$170"
+								text="Women's Shoe"
+							/>
+						</Col>
+						<Col md={7} className="product-intro-text">
+							<ProductOneText />
+						</Col>
+					</Row>
+					<Row className="product-intro ">
+						<Col md={5} className="product-intro-image">
+							<ProductCard
+								src={pdtTwo}
+								title="Nike Joyride Dual Run"
+								price="$130"
+								text="Men's Running Shoe"
+							/>
+						</Col>
+						<Col md={7} className="product-intro-text">
+							<ProductTwoText />
+						</Col>
+					</Row>
+					<Row className="product-intro">
+						<Col md={5} className="product-intro-image">
+							<ProductCard
+								src={pdtThree}
+								title="Nike Air Max 90" price="$140" text="Women's Shoe"
+							/>
+						</Col>
+						<Col md={7} className="product-intro-text">
+							<ProductThreeText />
 						</Col>
 					</Row>
 					<Row lg={1} className="latest-label">
@@ -142,7 +182,7 @@ class Home extends Component {
 							<BestSellers src={bbThree} />
 						</Col>
 					</Row>
-					<Row lg={3} className="best-label">
+					{/* <Row lg={3} className="best-label">
 						<Col>
 							<div>
 								<span className="latest-title">Men's</span>
@@ -158,7 +198,7 @@ class Home extends Component {
 								<span className="latest-title">Kids'</span>
 							</div>
 						</Col>
-					</Row>
+					</Row> */}
 					<Footer />
 				</Container>
 			</React.Fragment>

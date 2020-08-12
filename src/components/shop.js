@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import Buttons from './buttons';
+// import Buttons from './buttons';
 import NavBar from './navBar';
 import Footer from './footer';
 import ShopCard from './shopCard';

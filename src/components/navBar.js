@@ -23,6 +23,9 @@ class NavBar extends Component {
 					<img alt="" src={icon} className="nav-icon" />
 				</Navbar.Brand>
 				<Nav className="nav-link-group">
+					<span className="nav-link">NIKE</span>
+				</Nav>
+				{/* <Nav className="nav-link-group">
 					<Nav.Link
 						href="/shop"
 						onFocus={this.handleFocus}
@@ -65,7 +68,7 @@ class NavBar extends Component {
 					>
 						SALE
 					</Nav.Link>
-				</Nav>
+				</Nav> */}
 				<Form inline className="nav-form">
 					{/* <FormControl type="text" placeholder="Search" className="mr-sm-2" />
 								<Button variant="outline-primary">Search</Button> */}

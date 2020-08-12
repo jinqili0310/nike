@@ -8,7 +8,7 @@ class Footer extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Row lg={3} className="footer-area">
+				{/* <Row lg={3} className="footer-area">
 					<Col>
 						<p className="footer-text">GIFT CARDS</p>
 						<p className="footer-text">PROMOTIONS</p>
@@ -35,7 +35,7 @@ class Footer extends Component {
 						<p className="footer-grey">Sustainability</p>
 						<p className="footer-grey">CA Supply Chains Act</p>
 					</Col>
-				</Row>
+				</Row> */}
                 <Row lg={2} className="footer-last">
                     <Col className="footer-last-left">
                         <FontAwesomeIcon className="footer-last-white" icon={faMapMarkerAlt}></FontAwesomeIcon>

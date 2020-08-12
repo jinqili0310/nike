@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Card } from 'react-bootstrap';
-import Buttons from './buttons';
+// import Buttons from './buttons';
 
 class SimpleCard extends Component {
 	state = {
@@ -14,7 +14,7 @@ class SimpleCard extends Component {
 					<Card.Text className="simple-text text-light">
 						{this.props.text}
 					</Card.Text>
-                    <Buttons buttonLabel="Shop" buttonLink="/shop" class="button-style button-white"></Buttons>
+                    {/* <Buttons buttonLabel="Shop" buttonLink="/shop" class="button-style button-white"></Buttons> */}
                     </div>
 				</Card.ImgOverlay>
 			</Card>
