@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import Home from './components/home';
-import Shop from './components/shop';
+// import Shop from './components/shop';
 
 function App() {
 	return (
@@ -11,7 +11,7 @@ function App() {
 			<BrowserRouter>
 				<Switch>
 					<Route path="/" exact component={Home} />
-					<Route path="/shop" component={Shop} />
+					{/* <Route path="/shop" component={Shop} /> */}
 					<Redirect to="/" />
 				</Switch>
 			</BrowserRouter>
