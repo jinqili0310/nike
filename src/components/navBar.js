@@ -1,3 +1,10 @@
+/*
+ * @Author: Jinqi Li
+ * @Date: 2020-07-20 21:27:54
+ * @LastEditors: Jinqi Li
+ * @LastEditTime: 2020-10-04 23:29:19
+ * @FilePath: /nike/src/components/navBar.js
+ */
 import React, { Component } from 'react';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -19,7 +26,7 @@ class NavBar extends Component {
 	render() {
 		return (
 			<Navbar className="nav-style" collapseOnSelect expand="lg" fixed="top">
-				<Navbar.Brand href="/" className="nav-brand">
+				<Navbar.Brand href="/nike/#/" className="nav-brand">
 					<img alt="" src={icon} className="nav-icon" />
 				</Navbar.Brand>
 				<Nav className="nav-link-group">
