@@ -1,4 +1,4 @@
-var icon_img = 'https://kikijinqili.github.io/assets/nike/Nike.png'
+var icon_img = 'https://jinqili0310.github.io/assets/nike/Nike.png'
 var playAd = 0;
 var bye = 0;
 var sayBye// = setInterval(sayGoodbye, 600000);
@@ -26,16 +26,16 @@ function createQuestions() {
 
 	prescripted_questions[0] = new Question(['How\’s your day going?'], ['Awesome, dude ✌️', 'Alright, same old 😏','I need a nap 😂'], 1, 1)
 	prescripted_questions[1] = new Question(['Oh no, this might cheer you up!'], [""], 2, 0)
-	prescripted_questions[2] = new Question(["https://kikijinqili.github.io/assets/nike/Nike%20GIF1.gif"], [""], 3, 0);
+	prescripted_questions[2] = new Question(["https://jinqili0310.github.io/assets/nike/Nike%20GIF1.gif"], [""], 3, 0);
 	prescripted_questions[3] = new Question(["Did that dance make you feel more energetic?!"], ['Hell, yeah! 😊', 'Nah, not really 😩'], 4, 0);
 	prescripted_questions[4] = new Question(["That’s fantastic to hear! 😎  How can I help today?"], ['New Releases 🔥', 'Shoes & Clothes 👟 👚', 'Shop by Sport ⚽', 'Our Commitment to the Athlete in You 🏀'], 5, 3);
 	prescripted_questions[5] = new Question([ "Can’t wait to tell you more about the cool things we do! What would you like to know more about?"], ['Our Mission 👊', 'Our Team 💯', 'Nike News 📑'], 6, 0);
 	prescripted_questions[6] = new Question(["You’ve hit a three pointer with that request!"],[''], 7, 0);
-	prescripted_questions[7] = new Question(["https://kikijinqili.github.io/assets/nike/Nike%20GIF2.gif"], [""], 8, 0);
+	prescripted_questions[7] = new Question(["https://jinqili0310.github.io/assets/nike/Nike%20GIF2.gif"], [""], 8, 0);
 	prescripted_questions[8] = new Question(["Our mission is to bring inspiration and innovation to every athlete in the world! You know what?! If you have a body (unlike me), you’re an athlete!"], [''], 9, 0);
 	prescripted_questions[9] = new Question(["What else can I help you with?"], ['Nike News 📰', 'Learn About Our Community Impact 🏩', 'Explore Our Product Lines 👟 👚', 'You’ve Answered My Question! 😆 '], 10, 1);
 	prescripted_questions[10] = new Question(["I am thrilled that you want to learn more!"], [''], 11, 0);
-	prescripted_questions[11] = new Question(["https://kikijinqili.github.io/assets/nike/Nike%20GIF3.gif"], [""], 12, 0);
+	prescripted_questions[11] = new Question(["https://jinqili0310.github.io/assets/nike/Nike%20GIF3.gif"], [""], 12, 0);
 	prescripted_questions[12] = new Question(["At Nike, we believe in the power of sport to move the world! From the start, community has been at the core of who we are. With sport as a unifying force, we’re committed to helping everyone reach their greatest potential and creating an equal playing field for all!"], [''], 13, 0);
 	prescripted_questions[13] = new Question(["Can I help you with anything else?"], ['Learn More About Our Community Impact 🏩', 'Nike News 📰', 'Explore Our Product Lines 👟 👚', 'You Answered My Questions, I’m Good! 😄'], 14, 2);
 	prescripted_questions[14] = new Question(["Awesome, that’s so exciting to hear! What are you interested in?"], ['New Releases 🔥', 'Summer Essentials 🌞', 'Shop by Sport ⚽', 'Something Else! 😶'], 15, 2);
