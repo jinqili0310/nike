@@ -2,7 +2,7 @@
 	"name": "nike-clone",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://kikijinqili.github.io/nike",
+	"homepage": "https://jinqili0310.github.io/nike",
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^1.2.30",
 		"@fortawesome/free-solid-svg-icons": "^5.14.0",
